@@ -1,7 +1,9 @@
 
 # Cloud Server - AWS Elastic Beanstalk
 
-Create a simple express app to deploy to AWS.
+* Create a simple express app to deploy to AWS.
+
+* Deployed Using AWS GUI: [here](http://cloud-server-env.eba-gvgnujtm.us-east-2.elasticbeanstalk.com/)
 
 ## Getting Started
 
