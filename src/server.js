@@ -3,13 +3,14 @@
 
 const express = require('express');
 const cors = require('cors');
-const customerRouter = require('./routes/customers');
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use(customerRouter);
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
 
 module.exports = {
   start: (port) => {
